@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .cont{
+            background-color: cornflowerblue;
+        }
+        .box{
+            background-color: aquamarine;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: ayu 2s ease-in 3s infinite alternate forwards ;
+            /* animation-name: ayu;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-fill-mode: forwards; */
+        }
+        @keyframes ayu {
+            from{
+                width: 100px;
+            }
+         to{
+                width: 450px;
+            }   
+            /* also persentage can be used as in key frames */
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box">
+            This is box
+        </div>
+    </div>
+    
+</body>
+</html>

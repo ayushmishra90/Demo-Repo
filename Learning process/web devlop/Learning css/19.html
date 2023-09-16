@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psedu selectors styling links and buttons</title>
+</head>
+<style>
+    .container{
+    border:2px solid red;
+    background-color: rgb(174, 230, 230);
+    padding: 34px;
+    margin: 34px auto;
+   
+    float: auto;
+    width: 600px;
+}
+.btn{
+    background-color: aqua;
+    margin: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(249, 10, 249);
+    background-color: rgb(46, 158, 232);
+}
+a:visited{
+    color: rgb(17, 10, 233);
+}
+a:active{
+    background-color: brown ;
+}
+.btn:hover{
+    color:rgb(249, 10, 249);
+    background-color: rgb(46, 158, 232);
+}
+</style>
+<body>
+    <div class="container" id="conte">
+        <h3>M heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste minima necessitatibus eius deserunt veniam illum dolores. Quaerat corporis commodi ut ea, enim, accusantium non laboriosam veritatis eligendi iste laborum placeat.
+            <a href="https://www.google.com"class="btn">Read more</a>
+            <button class="btn">reach us</button>
+        </p>
+    </div>
+    
+</body>
+</html>

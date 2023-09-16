@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and rth child selectors</title>
+    <style>
+        input{
+            display: block;
+        }
+        .cont{
+           
+            display: block;
+            width: 443px;
+            margin: auto;
+        }
+        input[type='text']{
+            background-color: aqua;
+        }
+        a[target]{
+            background-color: aqua;
+            color: tomato;
+        }
+        a[target='_self']{
+            background-color: rgb(14, 226, 52);
+            color: rgb(17, 84, 220);
+        }
+        li:nth-child(4){
+            color: blueviolet;
+        }
+        li:nth-child(2n+1){
+            color: rgb(241, 9, 9);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <h2><a href="http://google.com" target="_blank">Open Google</a></h2>
+        <h2><a href="http://google.com" target="_self">Open Google</a></h2>
+        <form action="" class="formc">
+        <input type="text" placeholder="Enter Your Name">
+        <input type="Password" placeholder="Enter Your Password">
+        <input type="submit" value="Submitt">
+        </form>
+        <ul>
+            <li class="item" id="item1">Item1</li>
+            <li class="item" id="item2">Item2</li>
+            <li class="item" id="item3">Item3</li>
+            <li class="item" id="item4">Item4</li>
+            <li class="item" id="item5">Item5</li>
+            <li class="item" id="item6">Item6</li>
+        </ul>
+    </div>
+
+</body>
+</html>

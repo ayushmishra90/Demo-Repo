@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow text shadow Document</title>
+    <style>
+        .cont{
+            display: flex;
+            
+        }
+        .card{
+           
+            /* border: 3px dotted black; */
+            margin: 23px 12px;
+            background-color: aqua;
+            box-shadow: 12px 12px 4px rgb(113, 176, 17,0.5),inset 17px 18px 6px rgba(146, 12, 236, 0.5);;
+            /* box-shadow: inset 12px 12px 4px rgb(113, 176, 17,0.5); */
+        }
+        .card h2{
+                text-shadow: 2px  1px 1px white;;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+    <div class="card" id="card-1">
+        <h2>card-1</h2>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eius quod alias ullam ipsa, in quidem consequuntur dolor non quisquam animi vero natus?
+    </div>
+    <div class="card" id="card-2">
+        <h2>card-2</h2>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eius quod alias ullam ipsa, in quidem consequuntur dolor non quisquam animi vero natus?
+    </div>
+    <div class="card" id="card-3">
+        <h2>card-3</h2>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eius quod alias ullam ipsa, in quidem consequuntur dolor non quisquam animi vero natus?
+    </div>
+   </div>
+    
+</body>
+</html>

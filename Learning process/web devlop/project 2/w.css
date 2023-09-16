@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    /* background-color: rgb(6, 162, 224); */
+    width: 100%;
+    height: 6rem;
+}
+#log{
+    margin: 15px 40px;
+    
+}
+#log img{   
+    margin: 9px 9px;
+    border-radius: 60px;
+    height: 5rem;
+    width: 4rem;
+    
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    /* padding: 5rem; */
+    margin: 0rem;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    
+}
+#navbar ul li a:hover{
+    color: rgb(18, 8, 8);
+
+    background-color:rgb(255, 255, 255);
+    
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgb(8, 110, 132);
+    opacity: 0.4;
+
+}
+#sec{
+    display: flex;
+    flex-direction: column;
+    padding: 180px 3px;
+    align-items: center;
+    height: 80px;
+    justify-content: center;
+}
+#sec::before{
+    content: "";
+    position: absolute;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    background-image: url('drama.jpg') ;
+    /* background-image: url('drama.jpg') no-repeat center center/cover; */
+}
+#sec h2{
+    font-family: cursive;
+    color:white;
+    font-size:  2.5rem;
+    padding: 12px;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    */
+}
+#sec p{
+    color:white;
+    font-size:  1.5rem;
+    padding: 2px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#sec button{
+   
+    margin: 12px;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: darkorchid;
+    color: aliceblue;
+    border-color: aliceblue;
+    cursor: pointer;
+}
+#sec button:hover{
+   
+    
+    background-color: rgb(75, 44, 19);
+    color: rgb(179, 223, 233);
+    border-color: rgb(180, 203, 223);
+}
+.f{
+    height: 6rem;
+    display: block;
+    margin: auto;
+    width: 6rem;
+
+}
+.contai{
+    display: flex;
+    padding: 1rem;
+}
+.content{
+    /* margin: auto; */
+
+    /* displa;
+    align-items: center;
+    justify-content: center; */
+    /* display: flex; */
+    border: 2px solid rgb(11, 156, 139);
+    margin: 1rem;
+    padding: 12px;
+    text-align: center;
+    margin: 12px;
+    border-radius: 32px;
+    background-color: rgb(241, 241, 241)
+}
+.second{
+    display: flex;
+    margin: auto;
+    /* border: 2px solid rebeccapurple; */
+
+}
+.we{
+    font-size: 2rem;
+    font-family:cursive;
+}
+#he{
+    font-family: cursive;
+    font-size: 3rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px 0px 0px ;
+    /* background-color: black; */
+    /* margin: 2px 43px ; */
+}
+.content p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  
+}
+#clients{
+    position: relative;
+    /* height: 23px; */
+    /* border: double rebeccapurple;
+    margin :1rem;
+    border-radius: 23px;
+    padding: 1rem; */
+  
+}
+#clients::before{
+    content: " ";
+    position: absolute;
+    border: double rebeccapurple;
+    /* margin :1rem ; */
+    border-radius: 23px;
+    /* padding: 1rem; */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url('drama.jpg');
+    opacity: 0.4;
+  
+}
+#clients h1{
+    display: block;
+    font-family: cursive;
+    /* justify-content: center;
+    align-items: center;   */
+    text-align: center;  
+    font-size: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+.client{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin: 1rem; 
+
+}
+.cl{
+    height: 20rem;
+    width: 15rem;
+    border-radius: 23px;
+}
+.ind h1{
+    font-family: cursive;
+    text-align: center;
+
+}
+/* .ind{
+background: url('3 us.jpg');
+} */
+.ind{
+    position: relative;
+}
+.ind::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    background: url('3 us.jpg')no-repeat center center/cover;
+}
+.conta{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+   padding-bottom: 30px;
+   padding-top: 12px;
+}
+.conta textarea,
+.conta input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.conta form{
+    width: 4 0%;
+    /* padding: 0.5rem; */
+}
+.conta form label{
+    font-size: 1.2rem;
+    /* padding: 0.5rem; */
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}

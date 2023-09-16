@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flex Box</title>
+</head>
+<style>
+    .contain{
+        height: 543px;
+        width: 100%;
+        border: 4px dotted blueviolet;
+        display: flex;
+        /* flex properties for container */
+        /* flex-direction: column; */
+        /* flex-direction: row; */
+        /* flex-direction: column-reverse;
+        flex-direction: row-reverse; */
+        flex-wrap: wrap;
+        /* flex-flow:row-reverse wrap; */
+        justify-content: center;
+        justify-content: space-around;
+        justify-content: space-between;
+        justify-content: space-evenly;
+        align-items: center;
+        align-items: flex-end;
+        align-items: flex-start;
+        align-items: stretch;
+        align-items: center; 
+
+    }
+    .cont{
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        border: 2px solid royalblue;
+        margin: 12px;
+        padding: 12px;
+    }
+    #box1{
+          /* flex properties for item */ 
+          order: 1;
+          flex-grow: 6;
+          flex-basis: 340px;
+          
+    }
+    #box2{
+          /* flex properties for item */ 
+          order: 2;
+          flex-grow: 3;
+    }
+    #box3{
+          /* flex properties for item */ 
+          order: 5;
+          flex: 2 2 340px;
+    }
+    #box4{
+          /* flex properties for item */ 
+          order: 6;
+          align-self: flex-end;
+          align-self: flex-start;
+          align-self:center;
+    }
+    #box5{
+          /* flex properties for item */ 
+          order: 3;
+    }
+
+</style>
+<body>
+    <h1>this is flex box</h1>
+    <div class="contain">
+    <div class="cont" id="box1">first</div>
+    <div class="cont" id="box2">second</div>
+    <div class="cont" id="box3">third</div>
+    <div class="cont" id="box4">fouth</div>
+    <div class="cont" id="box5">fifth</div>
+</div>
+</body>
+</html>     

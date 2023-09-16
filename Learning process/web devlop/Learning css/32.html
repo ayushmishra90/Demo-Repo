@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css and custom propertiees</title>
+    <style>
+        .box{
+            --nh:rgb(14, 159, 24);
+            height: 200px;
+           width: 200px;
+           background-color: var(--nh);
+           margin :4px 12px;
+           border: 3px dashed blueviolet;
+           box-shadow: 4px 4px var(--nh);
+           text-align: center;
+        }
+        .cont{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box" id="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis fugit atque voluptate minus, maxime at aut consequatur ipsum nobis alias, culpa dolorem?</div>
+        <div class="box" id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis fugit atque voluptate minus, maxime at aut consequatur ipsum nobis alias, culpa dolorem?</div>
+        <div class="box" id="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis fugit atque voluptate minus, maxime at aut consequatur ipsum nobis alias, culpa dolorem?</div>
+    </div>
+</body>
+</html>

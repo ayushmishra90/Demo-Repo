@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B & F selectors</title>
+    <style>    
+    .nav{
+        display: flex;
+        flex-direction:row;
+        font-size: 23px;
+       
+
+    }
+    .item{
+        padding: 7px 34px;
+
+    }
+    li{
+        list-style-type: none;
+    }
+    body{
+       
+        background-color:  rgb(69, 115, 69);
+        color: white;
+        /* background: url('https://picsum.photos/1600/900')  no-repeat center center/cover; */
+    }
+    section{
+        display: flex;
+        height: 345px;
+        border:dashed rgb(20, 198, 217) 2px; display: flex;
+        flex-direction:column;
+        align-items: center;
+        margin: 4px 23px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        text-align: center;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    header::before{
+        content: "";
+        background: url('https://picsum.photos/1600/900')  no-repeat center center/cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.5;
+
+
+
+    }
+    /* section::after{
+        content: "likh do kuch bho";
+    } */
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav">
+                <li class="item" id="item1">item1</li>
+                <li class="item" id="item2">item2</li>
+                <li class="item" id="item3">item3</li>
+                <li class="item" id="item4">item4</li>
+            </ul>
+           
+        </nav>
+    </header>
+    <section> <h2>Welcome to My World</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid at iste ut rem asperiores officia eum. Porro at dolorem dolorum. Repudiandae tenetur vel repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta consectetur ex numquam laboriosam ipsa aut culpa ab quibusdam. Earum iure itaque quidem veritatis ab in, id tenetur pariatur dolorem. molestiae culpa, magnam, dicta amet harum vitae .</p></section>
+        <hr>
+
+    
+</body>
+</html>

@@ -1,7 +1,5 @@
-# Demo-Repo
+# My workspace and learning process
 
-Introduction to github
+Introduction to my journey from scrach
 
-## secns sdes
 
-do the next  tikljafdsk
