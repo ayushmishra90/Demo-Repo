@@ -1,4 +1,6 @@
+// sum of three no in array should be 0
 #include <bits/stdc++.h>
+
 using namespace std;
 class Solution
 {
